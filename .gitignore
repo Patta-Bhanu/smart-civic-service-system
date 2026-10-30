@@ -1,0 +1,34 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+venv/
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# User uploads and complaint evidence
+uploads/
+media/
+
+# Databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+frontend/save-token.html
